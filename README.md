@@ -1,56 +1,48 @@
-Bearing Web Logo Designer
+# ⚙️ Bearing Web Logo Designer
 
-A specialized Python-based SVG logo generator designed for industrial supply and bearing e-commerce websites. This tool allows users to create professional, scalable logos with various seasonal themes and layout styles without needing advanced graphic design software.
-🚀 Features
+![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Platform](https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-lightgrey)
 
-    19 Logo Variants: Includes professional layouts, icon-based designs (bearings, crowns), and seasonal themes.
-    Live Preview: Instantly visualize changes within the application or open full-scale previews in your web browser.
-    Fully Customizable:
-        Adjust primary, secondary, and accent colors.
-        Fine-tune typography: letter-spacing, word gaps, and TLD (.de/.nl/.com) scaling.
-        Control icon placement and scale.
-    Dimension Presets: Built-in presets for common use cases (Website Headers, Favicons, Social Media, and Business Cards).
-    Configuration Persistence: Your settings and brand colors are automatically saved to wlk_config.json.
-    Integrated Updater: Check for and install the latest versions directly from GitHub via the "Help" menu.
-    Professional Export: Export individual variants or batch-export all 19 styles as high-quality SVG files.
+A specialized Python-based **SVG logo generator** designed for industrial supply and bearing e-commerce websites. Create professional, scalable logos with seasonal themes and precise typography without needing design software.
 
-🛠️ Requirements
-1. Python 3.10 or Higher
+---
 
-This application requires Python to run. If you don't have it installed, download it here:
-👉 [Download Python from Python.org](https://www.python.org/downloads/)
+## ✨ Key Features
 
-    Note for Windows users: During installation, make sure to check the box that says "Add Python to PATH".
+*   **19 Unique Variants**: From professional corporate layouts to icon-based designs (bearings & crowns).
+*   **Seasonal Themes**: One-click branding for Christmas, Easter, Halloween, King's Day, and more.
+*   **Live Previews**: Visualize changes instantly in the UI or export to your web browser.
+*   **Fully Customizable**: 
+    *   Change brand colors (Hex codes).
+    *   Fine-tune typography: letter-spacing, word gaps, and TLD scaling.
+    *   Adjust icon placement and scales.
+*   **Dimension Presets**: Built-in sizes for Headers, Favicons, Social Media, and Business Cards.
+*   **Smart Persistence**: Automatically saves your last used settings in `wlk_config.json`.
+*   **Pro Export**: Batch-export all 19 styles as high-quality SVGs with a generated HTML preview.
 
-2. Dependencies
+---
 
-Zero external libraries required. This tool uses only Python's Standard Library (tkinter, urllib, json, etc.), making it secure and easy to run without complex setups.
-📥 Installation & Usage
+## 🛠️ Requirements
 
-    Download the Project:
-        Download this repository as a ZIP file and extract it to a folder on your computer.
-    Launch the App:
-        Windows: Double-click the Start.bat file.
-        macOS / Linux: Open a terminal in the folder and type:
-        bash
+### Python 3.10 or Higher
+This tool is built with Python. If you do not have it installed, download the latest version here:
 
-        python3 logo_designer.py
+👉 **[Download Python (Official Website)](https://www.python.org/downloads/)**
 
-🎨 Seasonal Themes Included
+> **Important:** During installation on Windows, ensure you check the box **"Add Python to PATH"**.
 
-The designer allows you to switch your brand identity for special events with a single click:
+### No External Dependencies
+This application uses only the Python **Standard Library**. You do **not** need to install any extra packages (no `pip install` required).
 
-    🎄 Winter / Christmas
-    👑 Royal / Coronation Days
-    🥚 Easter
-    🎃 Halloween
-    🎆 New Year's Eve
-    🛍️ Black Friday Sales
-    🥨 Oktoberfest
+---
 
-⚖️ License
+## 📥 Installation & Usage
 
-This project is licensed under the MIT License. You are free to use, modify, and distribute the software as long as the original copyright and license notice are included.
-
-Developed by: sm0kez
-Version: 0.8.0
+1.  **Download the Repository**:
+    *   [Download as ZIP](https://github.com/sm0kez/wlk-logo-designer/archive/refs/heads/main.zip) and extract it to a folder.
+2.  **Launch the App**:
+    *   **Windows**: Double-click the `Start.bat` file.
+    *   **Terminal**: Navigate to the folder and run:
+        ```bash
+        python logo_designer.py
