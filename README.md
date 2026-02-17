@@ -57,3 +57,6 @@ This application uses only the Python **Standard Library**. You do **not** need 
 ## Planned updates :
 * Multi-language support (Dutch for now on)
 * Export to other formats (PNG, JPG, ETC)
+* More Fonts
+* Auto-update (Manual update check for now)
+* TBA
