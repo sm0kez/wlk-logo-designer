@@ -52,5 +52,5 @@ The designer allows you to switch your brand identity for special events with a 
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute the software as long as the original copyright and license notice are included.
 
-Developed by: sm0var
+Developed by: sm0kez
 Version: 0.8.0
