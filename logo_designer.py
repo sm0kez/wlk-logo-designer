@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Artegro Logo Designer v0.8.0
+sm0kez Logo Designer v0.8.0
 Ontwikkeld door: sm0kez
 Licentie: MIT License
 
@@ -866,7 +866,7 @@ class LogoDesignerApp:
 
     def __init__(self):
         self.root = Tk()
-        self.root.title("Artegro Logo Designer v" + APP_VERSION)
+        self.root.title("sm0kez Logo Designer v" + APP_VERSION)
         self.root.geometry("1300x1000")
         self.root.minsize(1100, 800)
 
@@ -942,7 +942,7 @@ class LogoDesignerApp:
         help_menu = Menu(menubar, tearoff=0)
         help_menu.add_command(label="Zoek naar updates...", command=lambda: check_for_updates(self.debug, False))
         help_menu.add_separator()
-        help_menu.add_command(label="Over...", command=lambda: messagebox.showinfo("Over", f"Artegro Logo Designer v{APP_VERSION}\nOntwikkeld door sm0kez\nLicentie: MIT"))
+        help_menu.add_command(label="Over...", command=lambda: messagebox.showinfo("Over", f"sm0kez Logo Designer v{APP_VERSION}\nOntwikkeld door sm0kez\nLicentie: MIT"))
         menubar.add_cascade(label="Help", menu=help_menu)
 
         root.config(menu=menubar)
