@@ -21,7 +21,11 @@ A specialized Python-based **SVG logo generator** designed for industrial supply
 *   **Smart Persistence**: Automatically saves your last used settings in `wlk_config.json`.
 *   **Pro Export**: Batch-export all 19 styles as high-quality SVGs with a generated HTML preview.
 
+*   ## ✨ Examples
+
 *   <img width="1920" height="1040" alt="Screenshot_0 8 2" src="https://github.com/user-attachments/assets/107fe125-2f0e-4511-ba50-1613680708af" />
+<img width="1902" height="676" alt="image" src="https://github.com/user-attachments/assets/2f2cc333-6775-4af3-8bd7-c9a551d3f0a7" />
+
 
 
 ---
