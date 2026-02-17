@@ -53,3 +53,7 @@ This application uses only the Python **Standard Library**. You do **not** need 
     *   **Terminal**: Navigate to the folder and run:
         ```bash
         python logo_designer.py
+
+## Planned updates :
+* Multi-language support (Dutch for now on)
+* Export to other formats (PNG, JPG, ETC)
