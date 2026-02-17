@@ -1,0 +1,15 @@
+# Persoonlijke instellingen (Kleuren, teksten, etc.)
+wlk_config.json
+
+# Tijdelijke preview bestanden
+preview_*.html
+wlk_logos_*/
+
+# Python rommel
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Windows rommel
+Thumbs.db
+desktop.ini
