@@ -44,7 +44,7 @@ from typing import Callable
 
 # --- UPDATER CONFIGURATIE ---
 UPDATE_URL = "https://raw.githubusercontent.com/sm0kez/wlk-logo-designer/main/logo_designer.py"
-APP_VERSION = "0.8.1"
+APP_VERSION = "0.8.2"
 # ----------------------------
 
 GOOGLE_FONT_NAME = "Black Ops One"
@@ -55,10 +55,10 @@ CONFIG_FILE = "wlk_config.json"
 
 @dataclass
 class BrandConfig:
-    left: str = "W\u00c4LZLAGER"
-    right: str = "K\u00d6NIG"
-    tld: str = ".DE"
-    tagline: str = "Ihr Spezialist f\u00fcr W\u00e4lzlager & Kugellager"
+    left: str = "LEFT"
+    right: str = "RIGHT"
+    tld: str = ".COM"
+    tagline: str = "YOUR TAGLINE APPEARS HERE"
     color_dark: str = "#1b1b1b"
     color_red: str = "#e30613"
     color_gold: str = "#ffce00"
