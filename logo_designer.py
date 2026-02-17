@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 """
 Artegro Logo Designer v0.8.0
-Ontwikkeld door: sm0var
+Ontwikkeld door: sm0kez
 Licentie: MIT License
 
-Copyright (c) 2024 sm0var
+Copyright (c) 2024 sm0kez
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -13,7 +13,7 @@ in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
-... (volledige MIT voorwaarden gelden) ...
+... (SEE MIT LICENSE) ...
 """
 
 from __future__ import annotations
@@ -43,9 +43,8 @@ from tkinter import ttk
 from typing import Callable
 
 # --- UPDATER CONFIGURATIE ---
-# Let op: Zorg dat de repository naam 'wlk-logo-designer' overeenkomt met je GitHub repo.
-UPDATE_URL = "https://raw.githubusercontent.com/sm0var/wlk-logo-designer/main/logo_designer.py"
-APP_VERSION = "0.8.0"
+UPDATE_URL = "https://raw.githubusercontent.com/sm0kez/wlk-logo-designer/main/logo_designer.py"
+APP_VERSION = "0.8.1"
 # ----------------------------
 
 GOOGLE_FONT_NAME = "Black Ops One"
@@ -943,7 +942,7 @@ class LogoDesignerApp:
         help_menu = Menu(menubar, tearoff=0)
         help_menu.add_command(label="Zoek naar updates...", command=lambda: check_for_updates(self.debug, False))
         help_menu.add_separator()
-        help_menu.add_command(label="Over...", command=lambda: messagebox.showinfo("Over", f"Artegro Logo Designer v{APP_VERSION}\nOntwikkeld door sm0var\nLicentie: MIT"))
+        help_menu.add_command(label="Over...", command=lambda: messagebox.showinfo("Over", f"Artegro Logo Designer v{APP_VERSION}\nOntwikkeld door sm0kez\nLicentie: MIT"))
         menubar.add_cascade(label="Help", menu=help_menu)
 
         root.config(menu=menubar)
